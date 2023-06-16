@@ -24,5 +24,6 @@ urlpatterns = [
     path('segunda-vista/', views.segunda_vista),
     path('fecha-actual/', views.fecha_actual),
     path('saludar/', views.saludar),
-    path('bienvenida/<str:nombre>', views.bienvenida)
+    path('bienvenida/<str:nombre>', views.bienvenida),
+    path('crear-perro/<str:nombre>/<int:edad>', views.crear_perro)
     ]
